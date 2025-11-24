@@ -1,6 +1,10 @@
 package com.app.javamind.controller;
 
 public class StudentController {
+    public StudentController() {
+        super();
+    }
+
     String stdentName;
     int studentId;
 
