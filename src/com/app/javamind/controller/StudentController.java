@@ -4,13 +4,6 @@ public class StudentController {
     String stdentName;
     int studentId;
 
-    @Override
-    public String toString() {
-        return "StudentController{" +
-                "stdentName='" + stdentName + '\'' +
-                ", studentId=" + studentId +
-                '}';
-    }
 
     public int getStudentId() {
         return studentId;
